@@ -48,13 +48,13 @@ const Hero = () => {
             {/* Desktop image */}
             <img
               src={heroDesktop}
-              alt="Instituto Dra. Léia Demétrio - Clínica de Estética Premium"
+              alt="Clínica Dra. Léia Demétrio - Clínica de Estética Premium"
               className="hidden md:block w-full aspect-[4/5] object-cover rounded-3xl"
             />
             {/* Mobile image */}
             <img
               src={heroMobile}
-              alt="Instituto Dra. Léia Demétrio - Clínica de Estética Premium"
+              alt="Clínica Dra. Léia Demétrio - Clínica de Estética Premium"
               className="block md:hidden w-full aspect-square object-cover rounded-2xl"
             />
           </motion.div>

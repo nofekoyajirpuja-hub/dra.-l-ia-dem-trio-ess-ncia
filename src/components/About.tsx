@@ -20,7 +20,7 @@ const About = () => {
               Excelência em estética avançada
             </h2>
             <p className="mt-6 text-muted-foreground font-body leading-relaxed max-w-lg">
-              O Instituto Dra. Léia Demétrio oferece procedimentos estéticos modernos com foco em segurança, personalização e resultados naturais. Cada atendimento é pensado de forma individual, respeitando as características e os objetivos de cada paciente.
+              A Clínica Dra. Léia Demétrio oferece procedimentos estéticos modernos com foco em segurança, personalização e resultados naturais. Cada atendimento é pensado de forma individual, respeitando as características e os objetivos de cada paciente.
             </p>
           </motion.div>
 
