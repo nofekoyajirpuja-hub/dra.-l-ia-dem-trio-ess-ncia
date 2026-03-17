@@ -54,7 +54,7 @@ const Hero = () => {
             {/* Mobile image */}
             <img
               src={heroMobile}
-              alt="Instituto Dra. Léia Demétrio - Clínica de Estética Premium"
+              alt="Clínica Dra. Léia Demétrio - Clínica de Estética Premium"
               className="block md:hidden w-full aspect-square object-cover rounded-2xl"
             />
           </motion.div>
