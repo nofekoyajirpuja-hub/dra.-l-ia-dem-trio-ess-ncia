@@ -7,6 +7,10 @@ import procLaser from "@/assets/proc-laser.jpg";
 import procOlheiras from "@/assets/proc-olheiras.jpg";
 import procLabial from "@/assets/proc-labial.jpg";
 import procUltrassom from "@/assets/proc-ultrassom.jpg";
+import procPerfiloplastia from "@/assets/proc-perfiloplastia.jpg";
+import procRinomodelacao from "@/assets/proc-rinomodelacao.jpg";
+import procToxina from "@/assets/proc-toxina.jpg";
+import procCapilar from "@/assets/proc-capilar.jpg";
 
 const WHATSAPP_URL = "https://wa.me/5548998610013?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20";
 
@@ -32,6 +36,11 @@ const procedures = [
     image: procLaser,
   },
   {
+    title: "Perfiloplastia",
+    description: "Harmonização do perfil facial com técnicas avançadas para equilibrar queixo, mandíbula e contorno do rosto.",
+    image: procPerfiloplastia,
+  },
+  {
     title: "Preenchimento de Olheiras",
     description: "Procedimento indicado para suavizar olheiras profundas e trazer aspecto mais descansado ao olhar.",
     image: procOlheiras,
@@ -40,6 +49,21 @@ const procedures = [
     title: "Preenchimento Labial",
     description: "Realce de contorno, hidratação e volume dos lábios com resultado elegante e natural.",
     image: procLabial,
+  },
+  {
+    title: "Rinomodelação",
+    description: "Correção e harmonização do nariz sem cirurgia, com preenchimento para suavizar imperfeições e melhorar o perfil.",
+    image: procRinomodelacao,
+  },
+  {
+    title: "Toxina Botulínica",
+    description: "Tratamento para suavizar linhas de expressão e rugas, proporcionando aspecto rejuvenescido e natural.",
+    image: procToxina,
+  },
+  {
+    title: "Tratamento Capilar",
+    description: "Protocolos avançados para fortalecimento, restauração e estímulo ao crescimento dos fios.",
+    image: procCapilar,
   },
   {
     title: "Ultrassom Microfocado",
