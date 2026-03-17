@@ -10,7 +10,7 @@ const Footer = () => {
               Dra. Léia Demétrio
             </h3>
             <p className="font-body text-sm text-background/60 leading-relaxed">
-              Instituto de estética avançada especializado em harmonização facial e procedimentos com resultados naturais.
+              Clínica de estética avançada especializada em harmonização facial e procedimentos com resultados naturais.
             </p>
           </div>
 
