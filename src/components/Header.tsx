@@ -74,17 +74,32 @@ const Header = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 top-20 bg-background/95 backdrop-blur-lg lg:hidden z-40"
+            className="fixed inset-0 bg-background/98 backdrop-blur-lg lg:hidden z-[60] flex flex-col"
           >
-            <nav className="container-site flex flex-col items-center justify-center h-full gap-8 -mt-20">
+            {/* Menu header mirror */}
+            <div className="container-site flex items-center justify-between h-20 shrink-0">
+              <a href="#inicio" onClick={() => setIsOpen(false)} className="font-display text-2xl font-semibold tracking-tight text-foreground">
+                Dra. Léia Demétrio
+              </a>
+              <button
+                onClick={() => setIsOpen(false)}
+                className="p-2 text-foreground"
+                aria-label="Fechar menu"
+              >
+                <X size={24} />
+              </button>
+            </div>
+
+            {/* Nav links */}
+            <nav className="flex-1 flex flex-col items-center justify-center gap-7 pb-24">
               {navItems.map((item, i) => (
                 <motion.a
                   key={item.href}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={{ opacity: 0, y: 16 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.05, duration: 0.3 }}
+                  transition={{ delay: i * 0.04, duration: 0.3 }}
                   className="font-display text-3xl font-medium text-foreground hover:text-primary transition-colors"
                 >
                   {item.label}
@@ -94,9 +109,9 @@ const Header = () => {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.4, duration: 0.3 }}
+                transition={{ delay: 0.35, duration: 0.3 }}
                 className="mt-4 inline-flex items-center px-8 py-3 rounded-full bg-primary text-primary-foreground font-body text-base font-medium"
               >
                 Agendar Avaliação
