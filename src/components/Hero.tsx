@@ -15,11 +15,14 @@ const Hero = () => {
             transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
             className="order-2 md:order-1"
           >
+            <span className="inline-block font-body text-xs font-semibold tracking-[0.2em] uppercase text-primary mb-4 px-4 py-1.5 rounded-full bg-primary/10">
+              Clínica de Estética Avançada
+            </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-semibold text-foreground leading-[1.1] tracking-[-0.04em]">
-              Sua melhor versão com naturalidade e sofisticação
+              Referência em harmonização facial e estética avançada
             </h1>
             <p className="mt-6 text-base md:text-lg text-muted-foreground font-body max-w-lg leading-relaxed">
-              Procedimentos estéticos avançados com tecnologia moderna, atendimento personalizado e foco em resultados naturais.
+              Procedimentos estéticos de alto padrão com tecnologia moderna, atendimento personalizado e foco em resultados naturais que valorizam a sua beleza.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a

@@ -7,7 +7,7 @@ const WHATSAPP_URL = "https://wa.me/5548998610013?text=Ol%C3%A1%2C%20gostaria%20
 const navItems = [
   { label: "Início", href: "#inicio" },
   { label: "Sobre", href: "#sobre" },
-  { label: "Procedimentos", href: "#procedimentos" },
+  { label: "Procedimentos", href: "/procedimentos" },
   { label: "Resultados", href: "#resultados" },
   { label: "Clínica", href: "#clinica" },
   { label: "Localização", href: "#localizacao" },
